@@ -14,9 +14,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -357,17 +357,17 @@ Metoda: Quantum Grand Unification (GUT) Three-Force Running Coupling (7x6 qubita
 CSV: loto7_4718_k90.csv
 Validacija NLL (Lambda=0.8): 34.7180
 Test NLL: 35.2135
-NEXT: [5, 7, 17, 21, 23, 25, 33]
+NEXT: [5, x, 17, y, 23, z, 33]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (Lambda=0.8): 34.2555
 Test NLL: 34.9411
-NEXT: [1, 5, 7, 21, 23, 25, 33]
+NEXT: [1, x, 7, y, 23, z, 33]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (Lambda=0.8): 35.3685
 Test NLL: 35.0026
-NEXT: [5, 7, 17, 21, 25, 31, 33]
+NEXT: [5, x, 17, y, 25, z, 33]
 """
 
 
